@@ -1,0 +1,16 @@
+.div1{
+    box-sizing: border-box;
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 600px;
+    background-color: red;
+    background-image: linear-gradient(lightblue, lightgray, lightgreen);;
+}
+.select{
+    height: 300px;
+}
+.popup{
+    background-color: rgb(186, 231, 233);
+    width: 250px;
+    height: 250px;
+}
