@@ -1,23 +1,21 @@
 import   React from 'react'
-//import {BrowserRouter, Route, Link } from 'react-router-dom'
+import {BrowserRouter, Route, Link } from 'react-router-dom'
 import UserForm from './components/UserForm'
 import AdminDashboard from './components/AdminDashboard'
 
 function App() {
     return(
-        // <BrowserRouter>
-        // <div>
-        //     {/* <Link to="/">UserForm</Link> - */}
-        //     <Link to="/AdminDashboard">AdminDashboard</Link> 
-
-        //     <Route path="/" component={UserForm} exact={true} />
-        //     <Route path="/admindashboard" component={AdminDashboard} />
-        // </div>
-        // </BrowserRouter>
+        <BrowserRouter>
         <div>
-            <UserForm />
-            <AdminDashboard />
+            <Link to="/">UserForm</Link> - 
+            <Link to="/AdminDashboard">AdminDashboard</Link> -
+
+            <Route path="/" component={UserForm} exact={true} />
+            <Route path="/admindashboard" component={AdminDashboard} />
         </div>
+        </BrowserRouter>
+       
+        
     )
 }
 export default App

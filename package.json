@@ -10,8 +10,12 @@
     "moment": "^2.26.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "reactjs-popup": "^1.5.0"
+    "react-strap": "0.0.1",
+    "reactjs-popup": "^1.5.0",
+    "reactstrap": "^8.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
